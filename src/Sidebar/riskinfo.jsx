@@ -38,6 +38,7 @@ function RiskInfo() {
         {currentPanel === 1 ? <Demography /> : ""}
         {currentPanel === 2 ? <Imagery /> : ""}
         {currentPanel === 3 ? <CriticalInfrastructure /> : ""}
+        {/* {currentPanel === 3 ? <CriticalInfrastructure /> : ""} */}
       </div>
     </Fragment>
   );

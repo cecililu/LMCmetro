@@ -389,6 +389,13 @@ export const Portal = () => {
             ""
           )}
 
+     {component == ROUTE  ? (
+            <CommonMarker data={infrastructure} />
+          ) : (
+            ""
+          )}
+            {/* {component === ROUTE? <CriticalInfrastructure /> : ""} */}
+
           {downloablebuildingarchive && component=='Data'? (
             <DownloadWardGeoJSONRender data={downloablebuildingarchive} />
           ) : (

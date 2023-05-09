@@ -5,6 +5,7 @@ import { useSelector } from "react-redux";
 import { GetColor } from "../UI/GetColor";
 import { useDispatch } from "react-redux";
 import { changeDamageAndLossTab } from "../../store/Slices/chartSlice";
+import { CriticalInfrastructure, CriticalInfrastructure2 } from "../../RiskInfo/CriticalInfrastructure";
 
 export const getIcon = (disastertype) => {
   if (disastertype == "Fire") {
@@ -430,6 +431,7 @@ export const NavigationLegend = ({  }) => {
           zIndex: 9999,
         }}
       >
+       <CriticalInfrastructure2/>
         <div className="m-2  justify-between pb-1 items-start">
            <div className="bg-blue-400 text-white py-2 px-1">Navigation Panel</div>
          <div className="mt-2">

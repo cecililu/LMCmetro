@@ -114,7 +114,7 @@ console.log("RUNING USE effect")
    let c= newLayer.getBounds();
    console.log("THis is the bounds",c)
   // if (c)
-  map.fitBounds(newLayer.getBounds());
+  // map.fitBounds(newLayer.getBounds());
     return () => {
         map.removeLayer(newLayer);
       };
